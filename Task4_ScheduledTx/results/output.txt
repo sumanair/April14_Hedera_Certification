@@ -1,0 +1,25 @@
+Sumabalas-MacBook-Pro-4:Task4_ScheduledTx suma$ npm start
+
+> multi-signature@1.0.0 start
+> node scripts/scheduledTransaction.js
+
+
+============== create schedule transaction ===================
+Created a tranfer transaction without any signatures
+Creating a schedule transaction for the transfer
+Schedule transaction is created 0.0.4103375
+
+============== Delete scheduled transaction ===================
+Schedule transaction  0.0.4103375 is deleted SUCCESS
+
+============== Get schedule transaction info ===================
+Scheduled Transaction Details
+ScheduleId : 0.0.4103375
+Memo :  Scheduled Transaction From Account 1 to Account 2 on 2023-04-14T13:50:04.305Z
+Created by :  0.0.3515249
+Payed by :  0.0.3515249
+Expiration time :  2023-04-14T14:20:04.000Z
+
+==================== Execute Schedule Transaction ===========================
+Failed to execute transaction receipt for transaction 0.0.3515249@1681480194.761335627 contained error status SCHEDULE_ALREADY_DELETED
+Sumabalas-MacBook-Pro-4:Task4_ScheduledTx suma$

@@ -1,0 +1,16 @@
+{
+  "name": "task2_kycfungibletoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/tokenService.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.24.0",
+    "dotenv": "^16.0.3"
+  }
+}

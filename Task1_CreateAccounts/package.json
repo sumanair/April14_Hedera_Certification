@@ -1,0 +1,16 @@
+{
+  "name": "task1_createaccounts",
+  "version": "1.0.0",
+  "description": "Create a script to generate and fund Hedera Testnet accounts",
+  "main": "createAccounts.js",
+  "scripts": {
+    "start": "node scripts/createAccounts.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.24.0",
+    "dotenv": "^16.0.3"
+  }
+}

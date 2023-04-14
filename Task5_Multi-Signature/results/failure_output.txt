@@ -1,0 +1,16 @@
+Sumabalas-MacBook-Pro-4:Task5_Multi-Signature suma$ npm run start:failureCase
+
+> multi-signature@1.0.0 start:failureCase
+> node scripts/multiSigAccountErrorCase.js
+
+
+The Multi Signature Account ID is: 0.0.4101261
+
+Balance of 0.0.4101261: 2000000000 tinybars.
+
+Balance of 0.0.4090715: 20000000000 tinybars.
+
+The transaction errored with message INVALID_SIGNATURE
+
+Error:{"name":"StatusError","status":"INVALID_SIGNATURE","transactionId":"0.0.3515249@1681479376.365159044","message":"receipt for transaction 0.0.3515249@1681479376.365159044 contained error status INVALID_SIGNATURE"}
+Sumabalas-MacBook-Pro-4:Task5_Multi-Signature suma$

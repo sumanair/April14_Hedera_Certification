@@ -1,0 +1,39 @@
+Sumabalas-MacBook-Pro-4:Task2_KYCFungibleToken suma$ npm start
+
+> task2_kycfungibletoken@1.0.0 start
+> node scripts/tokenService.js
+
+
+ =========Token Creation =========
+The token create transaction status is: SUCCESS
+
+The new token ID is 0.0.4091085
+
+
+ =========Token Details =========
+Searching for the token 0.0.4091085
+The name of the token is: Hedera KYC Token Suma
+The symbol of the token is: HKTS
+The totalsupply of the token is: 100000
+Current owner: 0.0.4090710
+Current admin: 302a300506032b65700321004a1d7c25574f958b6c11944e41b81c76c768f9626a997b0f78825813ae9017bc
+
+ =========Token Association =========
+Token association with the other account: SUCCESS
+
+
+ =========Token Transfer Before Granting Kyc =========
+
+The transaction errored with message ACCOUNT_KYC_NOT_GRANTED_FOR_TOKEN
+
+Error:{"name":"StatusError","status":"ACCOUNT_KYC_NOT_GRANTED_FOR_TOKEN","transactionId":"0.0.3515249@1681471776.272978710","message":"receipt for transaction 0.0.3515249@1681471776.272978710 contained error status ACCOUNT_KYC_NOT_GRANTED_FOR_TOKEN"}
+
+ =========Granting Kyc to Account 3 =========
+The grant Kyc transaction consensus status SUCCESS
+
+ =========Token Transfer After Granting Kyc =========
+The transaction consensus status SUCCESS
+The transaction Id 0.0.3515249@1681471776.950107631
+- Balance of account 0.0.4090710: 98701 unit(s) of token 0.0.4091085
+- Balance of account 0.0.4090713: 1299 unit(s) of token 0.0.4091085
+Sumabalas-MacBook-Pro-4:Task2_KYCFungibleToken suma$

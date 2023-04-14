@@ -1,0 +1,19 @@
+Sumabalas-MacBook-Pro-4:Task3_Smartcontract suma$ npm start
+
+> storage@1.0.0 start
+> node scripts/smart-contract.js
+
+============= Deploy contract ===============
+The new contract ID is 0.0.4096006
+
+ ================== Calling Function  to execute from contract =====================
+Contract Id: 0.0.4096006
+Function 1 Output : 30
+
+=================  Calling Delete Contract ========================
+The Error contract transaction consensus status is SUCCESS
+
+ ================== Calling Function  to execute from contract =====================
+Contract Id: 0.0.4096006
+Error in execute transaction : {"name":"StatusError","status":"CONTRACT_DELETED","transactionId":"0.0.3515249@1681475953.132674651","message":"receipt for transaction 0.0.3515249@1681475953.132674651 contained error status CONTRACT_DELETED"}
+Sumabalas-MacBook-Pro-4:Task3_Smartcontract suma$

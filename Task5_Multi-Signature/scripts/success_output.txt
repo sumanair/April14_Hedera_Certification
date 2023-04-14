@@ -1,0 +1,17 @@
+Sumabalas-MacBook-Pro-4:Task5_Multi-Signature suma$ npm run start:successCase
+
+> multi-signature@1.0.0 start:successCase
+> node scripts/multiSigAccountSuccessCase.js
+
+
+The Multi Signature Account ID is: 0.0.4101750
+
+Balance of 0.0.4101750: 2000000000 tinybars.
+
+Balance of 0.0.4090715: 20000000000 tinybars.
+The transaction status is SUCCESS
+
+Balance of 0.0.4101750: 1000000000 tinybars.
+
+Balance of 0.0.4090715: 21000000000 tinybars.
+Sumabalas-MacBook-Pro-4:Task5_Multi-Signature suma$

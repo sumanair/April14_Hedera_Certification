@@ -1,0 +1,21 @@
+Sumabalas-MacBook-Pro-4:Task6_ConsensusService suma$ npm start
+
+> setup@1.0.0 start
+> node scripts/consensus.js
+
+
+ ========== create a new topic to submit message ==========
+Topic 0.0.4106321 created
+Topic id : 0.0.4106321
+
+ ========== Creating a delay before subscribing ==========
+5000 millseconds elapsed
+
+ ========== Subscribing to the topic ==========
+
+ ========== Calculate current time ==========
+currentTime : Fri, 14 Apr 2023 14:13:35 GMT
+
+ ========== Submitting message to the topic ==========
+The message transaction status: SUCCESS
+Sumabalas-MacBook-Pro-4:Task6_ConsensusService suma$

@@ -1,0 +1,22 @@
+{
+  "name": "storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/smart-contract.js",
+    "buildsol" : "node scripts/buildSol.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.1.1",
+    "dotenv": "^10.0.0"
+  },
+  "dependencies": {
+    "@hashgraph/hethers": "^1.2.5",
+    "@hashgraph/sdk": "^2.16.6",
+    "solc": "^0.8.19",
+    "web3": "^1.8.1"
+  }
+}
